@@ -35,10 +35,30 @@
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "5.9.18",
-    "siteFonts": [],
+    "siteFonts": [
+      {
+        "css": "'Inter Tight', sans-serif",
+        "name": "Inter Tight",
+        "url": "https://fonts.googleapis.com/css?family=Inter+Tight:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i"
+      }
+    ],
     "imageResize": true,
     "uniqCompNum": 0,
-    "versionPublish": "5.9.18"
+    "versionPublish": "5.9.18",
+    "screenshot": "screenshot.png",
+    "favicon": false,
+    "mbrsiteDomain": "twr6fsywvs",
+    "usedWebp": false,
+    "robotsSwitcher": false,
+    "sitemapSwitcher": false,
+    "sitemapSwitcherAuto": false,
+    "siteUrl": false,
+    "cookiesAlert": false,
+    "gdpr": false,
+    "witsec-search": false,
+    "witsec-white-label": true,
+    "witsec-jquery": false,
+    "witsec-mailform": false
   },
   "pages": {
     "index.html": {
