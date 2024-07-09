@@ -2098,7 +2098,7 @@
     case 'en': // jshint ignore:line
     default : // jshint ignore:line
         lang = {
-            'noNotes': '<div class="noNotes">Không có nội dung thuyết minh cho trình diễn này!</div>',
+            'noNotes': '<div class="noNotes">Không có thuyết minh cho trình diễn này!</div>',
             'restart': 'Tổng Quan',
             'clickToOpen': 'Click để truy cập thuyết minh',
             'prev': 'Quay Lại',
