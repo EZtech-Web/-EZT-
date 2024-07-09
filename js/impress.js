@@ -1937,7 +1937,7 @@
  * Released under the MIT license.
  */
 /* global window, document */
-/**
+
 ( function( document, window ) {
     "use strict";
     var rows = [];
@@ -1994,7 +1994,7 @@
      * :param: e.detail.command  Example: "H"
      * :param: e.detail.text     Example: "Show this help."
      * :param: e.detail.row      Row index from 0 to 9 where to place this help text. Example: 0
-     ****************************************
+     */
     document.addEventListener( "impress:help:add", function( e ) {
 
         // The idea is for the sender of the event to supply a unique row index, used for sorting.
@@ -2038,7 +2038,7 @@
     } );
 
 } )( document, window );
-*/
+
 
 /**
  * Adds a presenter console to impress.js
