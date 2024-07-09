@@ -2005,8 +2005,8 @@
         if ( typeof rows[ rowIndex ] !== "object" || !rows[ rowIndex ].isArray ) {
             rows[ rowIndex ] = [];
         }
-        rows[ e.detail.row ].push( "<tr><td><strong>" + e.detail.command + "</strong></td><td>" +
-                                   e.detail.text + "</td></tr>" );
+        rows[ e.detail.row ].push( "<tr><td><strong>" + e.detail.command + "</strong><hr></td><td>" +
+                                   e.detail.text + "<hr></td></tr>" );
         renderHelpDiv();
     } );
 
