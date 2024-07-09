@@ -1734,7 +1734,7 @@
         }, false );
 
         util.triggerEvent( document, "impress:help:add",
-            { command: "F5 / ESC", text: "Fullscreen: Enter / Exit", row: 200 } );
+            { command: "Phím [ F5 ]", text: "Chế Độ Toàn Màn Hình", row: 200 } );
 
     }, false );
 
