@@ -2034,7 +2034,7 @@
 
         // Use our own API to register the help text for "h"
         triggerEvent( document, "impress:help:add",
-                      { command: "H", text: "Trình Đơn Trợ Giúp", row: 0 } );
+                      { command: "Phím [H]", text: "Trình Đơn Trợ Giúp", row: 0 } );
     } );
 
 } )( document, window );
@@ -3396,8 +3396,8 @@
         }, false );
 
         // Add a line to the help popup
-        util.triggerEvent( document, "impress:help:add", { command: "Left &amp; Right",
-                                                           text: "Previous &amp; Next step",
+        util.triggerEvent( document, "impress:help:add", { command: "Phím [ &#10096; &amp; &#10097; ]",
+                                                           text: "Điều Hướng Trình Diễn",
                                                            row: 1 } );
 
     }, false );
