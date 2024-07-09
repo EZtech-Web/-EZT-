@@ -2098,14 +2098,14 @@
     case 'en': // jshint ignore:line
     default : // jshint ignore:line
         lang = {
-            'noNotes': '<div class="noNotes">No notes for this step</div>',
-            'restart': 'Restart',
-            'clickToOpen': 'Click to open speaker console',
-            'prev': 'Prev',
-            'next': 'Next',
-            'loading': 'Loading',
-            'ready': 'Ready',
-            'moving': 'Moving',
+            'noNotes': '<div class="noNotes">Không có nội dung thuyết minh cho trình diễn này!</div>',
+            'restart': 'Tổng Quan',
+            'clickToOpen': 'Click để truy cập thuyết minh',
+            'prev': 'Quay Lại',
+            'next': 'Tiếp Tới',
+            'loading': 'Đang Tải...',
+            'ready': 'Trình Diễn',
+            'moving': 'Chuyển Tiếp...',
             'useAMPM': false
         };
         break;
