@@ -2034,7 +2034,7 @@
 
         // Use our own API to register the help text for "h"
         triggerEvent( document, "impress:help:add",
-                      { command: "H", text: "Show this help", row: 0 } );
+                      { command: "H", text: "Trình Đơn Trợ Giúp", row: 0 } );
     } );
 
 } )( document, window );
