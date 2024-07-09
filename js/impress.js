@@ -2034,7 +2034,7 @@
 
         // Use our own API to register the help text for "h"
         triggerEvent( document, "impress:help:add",
-                      { command: "Phím [H]", text: "Trình Đơn Trợ Giúp", row: 0 } );
+                      { command: "Phím [ H ]", text: "Trình Đơn Trợ Giúp", row: 0 } );
     } );
 
 } )( document, window );
@@ -2656,7 +2656,7 @@
 
         // Add 'P' to the help popup
         triggerEvent( document, 'impress:help:add',
-                        { command: 'P', text: 'Presenter console', row: 10 } );
+                        { command: 'Phím [ P ]', text: 'Truy Cập Thuyết Minh', row: 10 } );
     } );
 
     // Returns a string to be used inline as a css <style> element in the console window.
@@ -3396,7 +3396,7 @@
         }, false );
 
         // Add a line to the help popup
-        util.triggerEvent( document, "impress:help:add", { command: "Phím [ &#10096; &amp; &#10097; ]",
+        util.triggerEvent( document, "impress:help:add", { command: "Phím [ &#10096; ] [ &#10097; ]",
                                                            text: "Điều Hướng Trình Diễn",
                                                            row: 1 } );
 
