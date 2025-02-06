@@ -406,7 +406,7 @@ a:focus {
 
     Just make sure you don't blindly copy this approach.
 */
-#source {
+#EZtech_OOO {
     width: 700px;
     padding-bottom: 300px;
 
@@ -416,7 +416,7 @@ a:focus {
     background-repeat: no-repeat;
 }
 
-#source q {
+#EZtech_OOO q {
     font-size: 60px;
 }
 
