@@ -517,6 +517,10 @@ a:focus {
     transform:         translateZ(0px);
 }
 
+#EZtech_Begin {
+    font-family: "Yanone Kaffeesatz";
+}
+
 /*
     The last step is an overview.
     There is no content in it, so we make sure it's not visible because we want
