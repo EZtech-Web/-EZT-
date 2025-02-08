@@ -464,7 +464,8 @@ if ("ontouchstart" in document.documentElement) {
     
 -->
 
-<!-- <canvas id="canvas">Canvas is not supported in your browser.</canvas> -->
+<canvas id="canvas">Canvas is not supported in your browser.</canvas>
+<!--
 <style>body {
   background: #10111C;
   height:100%;
@@ -479,7 +480,9 @@ canvas {
     top: 0;
     left: 0;
 }
-</style><script>
+</style>
+-->
+<script>
 // when animating on canvas, it is best to use requestAnimationFrame instead of setTimeout or setInterval
 // not supported in all browsers though and sometimes needs a prefix, so we need a shim
 window.requestAnimFrame = ( function() {
