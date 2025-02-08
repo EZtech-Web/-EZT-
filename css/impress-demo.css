@@ -520,6 +520,9 @@ a:focus {
 #EZtech_Begin {
     font-family: "Yanone Kaffeesatz";
 }
+#EZtech_Begin a {
+    padding: 13px 0.3em;
+}
 
 /*
     The last step is an overview.
