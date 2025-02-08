@@ -464,23 +464,10 @@ if ("ontouchstart" in document.documentElement) {
     
 -->
 
-<canvas id="canvas">Canvas is not supported in your browser.</canvas>
-
-<style>
- body {
-  height:100%;
-  text-align: center;
-}
- canvas {
-	display: block;
-    position: fixed;
-	with:100%;
-	height:100%;
-    top: 0;
-    left: 0;
-}
-</style>
-
+<canvas id="canvas">
+    <p>Trình duyệt web của bạn <b>Không Hỗ Trợ JavaScript</b>, trình diễn có thể sẽ hoạt động không đúng cách.</p>
+    <p>Vui lòng cập nhật phiên bản mới nhất của trình duyệt web <b>Chrome</b>, <b>Safari</b> hoặc <b>Firefox</b>.</p>
+</canvas>
 <script>
 // when animating on canvas, it is best to use requestAnimationFrame instead of setTimeout or setInterval
 // not supported in all browsers though and sometimes needs a prefix, so we need a shim
